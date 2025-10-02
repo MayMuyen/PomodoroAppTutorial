@@ -102,3 +102,42 @@ button {
 button:hover {
   color: #90c0d1;
 }
+
+.minutes,
+.seconds,
+.no-tickers::-webkit-outer-spin-button,
+.no-tickers::-webkit-inner-spin-button {
+  border: none;
+  outline: none;
+  background: none;
+  -webkit-appearance: none;
+  margin: 0;
+  
+}
+
+.colon {
+    width: 50px;
+    font-size: 250%;
+    font-family: 'Droid Sans Mono', monospace;
+    position: relative;
+    top: 50px;
+    color: #d8e9ef;
+}
+
+input[type="number"] {
+    width: 55px;
+    height: 60px;
+    padding: 0;
+    font-size: 250%;
+    font-family: 'Droid Sans Mono', monospace;
+    position: relative;
+    top: 50px;
+    color: #d8e9ef;
+}
+
+
+
+button:hover {
+  color: #90c0d1;
+
+}
