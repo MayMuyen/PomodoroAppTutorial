@@ -125,6 +125,7 @@ button:hover {
 }
 
 input[type="number"] {
+    -moz-appearance: textfield;
     width: 55px;
     height: 60px;
     padding: 0;
@@ -141,3 +142,4 @@ button:hover {
   color: #90c0d1;
 
 }
+
